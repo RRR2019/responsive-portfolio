@@ -3,22 +3,21 @@
     padding: 0;
 }
 body {
-    background: url(background.jpg)
+    background: url(img/background.jpg)
     }
 .master{
     width: 960px;
     padding-left:10em;
 }
-header {
-   
+.menu {
+    
     border-bottom: solid;
     border-width: 0.15em;
     border-color: lightgray;
     padding-right: 6em;
     background-color:whitesmoke;
-    
-
 }
+
 .name{
    
     width: 20%;
@@ -59,6 +58,16 @@ li a {
     border-color: lightgray;
 }
 
+#about:hover{
+    color: lightseagreen;
+}
+#contact:hover{
+    color: lightseagreen;
+}
+#portfolio:hover{
+    color: lightseagreen;
+}
+
 #portfolio{
     border-right: solid;
     border-width: 0.01em;
@@ -73,6 +82,7 @@ article{
     margin-top: 2em;
     margin-left: 6em;
     padding: 1.5em;
+    
 }
 
 .about{
@@ -82,9 +92,11 @@ article{
     border-width: 0.01em;
     border-color: lightgray;
     padding-bottom: 0.5em;
+
 }
 #mypicture{
     float: left;
+    padding-top: 1em;
     padding-right: 1em;
     padding-bottom:1em;
 }
@@ -93,6 +105,7 @@ article{
     color: gray;
     font-size: 0.9em;
     text-align: justify;
+    padding: 0.5em;
 }
 
 footer{
