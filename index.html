@@ -2,45 +2,56 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My Bio</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <div class="master">
-        <header>
-            <nav class="menu">
-            <ul style="list-style-type:none;" class="Menu">
-                <li><a id=contact href="contact/contact.html">Contact </a></li>
-                <li><a id=portfolio href="portfolio/portfolio.html">Portfolio </a></li>
-                <li><a id=about href="index.html">About </a></li>
-            </ul>
-            <h1 class=name>Rodrigo Robles</h1>
-            </nav>
-        </header>
-            <article>
-                <h1 class="about">About me</h1>
-                <img id="mypicture" src="img/pic.JPG" alt="my picture">
-                    <p class="myinfo">
-                        My name is Rodrigo Robles Rivera, I was born in Mexico City in 1987. I'm an Engineer trying to become a web developer. My favorite hobbies are: playing videogames and watching movies. I'm currently living in Boston, MA.
-                    </p>
-                    <p class="myinfo2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue.
-                    </p>
-                    <p class="myinfo3">
-                        Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
-                    </p>
-                    <p class="myinfo4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue.
-                    </p>
-                    
-                
-            </article>
+        <nav class="navbar navbar-dark bg-white border-bottom border-secondary" id="navheader">
 
-        <footer>
-            <p class="copyright">
-                Copyright &copy; 2019
-            </p>
-        </footer>
-    </div>
+                <h2 class="bg-info text-white p-2 mt-0 mb-0" id="myname">Rodrigo Robles</h2>
+
+            <ul class="nav mr-5">
+                <li class="nav-item">
+                    <a class="nav-link active text-info border-right border-secondary" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info border-right border-secondary" href="portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="contact/contact.html">Contact</a>
+                </li>
+        </nav>
+        <div class=container>
+
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title border-bottom border-secondary pb-2">About me</h3>
+                            <img src="img/pic.JPG" alt="my picture" class="img-thumbnail float-left mr-2 mb-2">
+                            <p>                        
+                                My name is Rodrigo Robles Rivera, I was born in Mexico City in 1987. I'm an Engineer trying to become a web developer. My favorite hobbies are: playing videogames and watching movies. I'm currently living in Boston, MA.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue.
+                            </p>
+                            <p>
+                                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         
+            <nav class="navbar fixed-bottom navbar-light bg-dark justify-content-center border-top border-info pt-1" id="cfooter">
+                <a class="navbar-brand text-white"><small>Copyright &copy; 2019</small></a>
+            </nav>
+  
     </body>
 </html>

@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Bio</title>
-        <link rel="stylesheet" href="css/p-style.css">
-    </head>
-    <body>
-    <div class="master">
-        <header>
-            <nav class="menu">
-            <ul style="list-style-type:none;" class="Menu">
-                <li><a id=contact href="../contact/contact.html">Contact </a></li>
-                <li><a id=portfolio href="portfolio.html">Portfolio </a></li>
-                <li><a id=about href="../index.html">About </a></li>
-            </ul>
-            <h1 class=name>Rodrigo Robles</h1>
-            </nav>
-        </header>
-            <article>
-                <h1 class="portfolio">Portfolio</h1>
-                <div class="portimages">
-                    <div class="rpg imageblock">
-                        <p class="projname">RPG Game</p>
-                    </div>
-                    <div class="game imageblock">
-                        <p class="projname">Cool Game</p>
-                    </div>
-                    <div class="project1 imageblock">
-                        <p class="projname">Project 1</p>
-                    </div>
-                    <div class="project2 imageblock">
-                        <p class="projname">Project 2</p>
-                    </div>
-                    <div class="project3 imageblock">
-                        <p class="projname">Project 3</p>   
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Bio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/p-style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-white border-bottom border-secondary" id="navheader">
+
+        <h2 class="bg-info text-white p-2 mt-0 mb-0" id="myname">Rodrigo Robles</h2>
+
+        <ul class="nav mr-5">
+            <li class="nav-item">
+                <a class="nav-link active text-info border-right border-secondary" href="../index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-info border-right border-secondary" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-info" href="../contact/contact.html">Contact</a>
+            </li>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title border-bottom border-secondary pb-2">Portfolio</h3>
+                        <div class="portimages">
+                            <div class="rpg m-2">
+                                <p class="projname bg-info text-white text-center mt-5">RPG Game</p>
+                            </div>
+                            <div class="game m-2">
+                                <p class="bg-info text-white text-center mt-5">Cool Game</p>
+                            </div>
+                            <div class="project1 m-2">
+                                <p class="bg-info text-white text-center mt-5">Project 1</p>
+                            </div>
+                            <div class="project2 m-2">
+                                <p class="bg-info text-white text-center mt-5">Project 2</p>
+                            </div>
+                            <div class="project3 m-2">
+                                <p class="bg-info text-white text-center mt-5">Project 3</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </article>
-
-        <footer>
-            <p class="copyright">
-                Copyright &copy; 2019
-            </p>
-        </footer>
+            </div>
+        </div>
     </div>
-    </body>
+
+    <nav class="navbar fixed-bottom navbar-light bg-dark justify-content-center border-top border-info pt-1" id="cfooter">
+        <a class="navbar-brand text-white"><small>Copyright &copy; 2019</small></a>
+    </nav>
+
+</body>
+
 </html>
